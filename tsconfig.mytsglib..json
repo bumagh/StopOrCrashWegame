@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ],
+    "types": [
+      "wx"
+    ],
+    "module": "commonjs",
+    "outDir": "./mytsglib",
+    "rootDir": "./mytsglib",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "mytsglib/**/**.ts"
+  ],
+  "exclude": [
+    "mytsglib/**/**.js"
+  ]
+}
